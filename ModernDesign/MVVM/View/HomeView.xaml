@@ -68,6 +68,14 @@
         </StackPanel>
 
         <StackPanel>
+            <StackPanel.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="Margin" Value="15,0,0,0" />
+                </Style>
+            </StackPanel.Resources>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal">
             <TextBlock Text="Most watched"
                        Foreground="White"
                        FontSize="20"
